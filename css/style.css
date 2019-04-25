@@ -1096,6 +1096,25 @@ header {
 .team:hover .team-social {
     opacity: 1;
 }
+.team-bio p { 
+    color: #10161A; 
+    margin: 25PX;
+
+}
+.team-bio h3 { 
+    color: #10161A; 
+    margin: 25PX;
+    text-underline-position: below;
+    font-size: 20px;
+    text-align: center;
+}
+.team-bio h4 { 
+    color: #10161A; 
+    margin: 25PX;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+}
 
 
 /*------------------------------------*\
