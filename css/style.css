@@ -1486,12 +1486,14 @@ header {
 }
 
 .footer-logo>a>img {
-    max-height: 80px;
+    max-height: 200px;
+    margin-right: 0px
 }
 
 .footer-follow {
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 12px
 }
 
 .footer-follow li {
