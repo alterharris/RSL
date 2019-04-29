@@ -160,7 +160,7 @@ ul, ol {
     z-index: 0;
     background-position: center;
     background-size: cover;
-    background-attachment: absolute;
+    background-attachment: fixed;
 }
 
 .bg-img .overlay {
