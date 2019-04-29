@@ -160,7 +160,8 @@ ul, ol {
     z-index: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .bg-img .overlay {
