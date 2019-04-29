@@ -1006,7 +1006,7 @@ header {
 
 .team::after {
     content: "";
-    /* background-color: transparent; */
+    background-color: transparent; 
     position: absolute;
     left: 0;
     right: 0;
