@@ -304,12 +304,13 @@
 				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
 					<form class="contact-form">
-						<form id="contact-form" method ="post" action="sendmail">
-						<input type="text" class="input" placeholder="Name">
-						<input type="email" class="input" placeholder="Email">
-						<input type="text" class="input" placeholder="Subject">
-						<textarea class="input" placeholder="Message"></textarea>
-						<button class="main-btn">Send message</button>
+						<form id="contact-form" method ="post" action="sendmail"></form>
+						<input name= "name" type="text" class="input" placeholder="Name">
+						<input name= "message" type="email" class="input" placeholder="Email">
+						<input name= "subject" type="text" class="input" placeholder="Subject">
+						<textarea name="message" class="input" placeholder="Message"></textarea>
+						<!-- <button class="main-btn">Send message</button> -->
+						<input type="submit" class="main-btn">Send message</button>
 					</form>
 				</div>
 				<!-- /contact form -->
