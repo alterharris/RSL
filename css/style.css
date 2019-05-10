@@ -584,18 +584,19 @@ header {
 #home {
     height: 100vh;
 }
+
 header p {
-    color: rgb(199, 14, 14);
+    color: white;
     position: absolute; 
     visibility: visible; 
-    left: 610px; 
+    left: 645px; 
     font-family:  'Gotham Book Regular';
     Font-size: 40px;
     font-style: italic;
     text-shadow: .5px .5px black;
     text-align: center;
     top: 600px; 
-    z-index: -1;
+ /* z-index: -100; */
 }
 
 #home .home-wrapper {
