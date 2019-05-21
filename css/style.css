@@ -100,7 +100,7 @@ a:hover, a:focus {
 }
 
 .white-text {
-    color: #FFF;
+    color: black;
 }
 
 ::-moz-selection {
@@ -601,9 +601,9 @@ header p {
 
 #home .home-wrapper {
     position: absolute;
-    left: 0px;
+    left:  4%;
     right: 0px;
-    top: 50%;
+    top: 87%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -611,7 +611,10 @@ header p {
 }
 
 .home-content h1 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  /* font-style: italic; */
+  font-family: 'Great Vibes', cursive;
+  text-shadow: .70px .70px white;
 }
 .home-content button {
   margin-top: 20px;
