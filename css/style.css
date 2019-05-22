@@ -619,6 +619,7 @@ header p {
   text-shadow: .70px .70px white;
   text-align: center;
   opacity: .75;
+  position: absolute; 
 }
 .home-content button {
   margin-top: 20px;
