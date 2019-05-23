@@ -615,12 +615,12 @@ header p {
 .home-content h1 {
   /* text-transform: uppercase; */
   /* font-style: italic; */
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Gotham'; 
   font-size: 36px;
-  text-shadow: .70px .70px white;
+  /* text-shadow: .70px .70px white; */
   text-align: center;
-  opacity: .75;
-  position: absolute; 
+  /* opacity: .75; */
+  position: relative; 
 }
 .home-content button {
   margin-top: 20px;
