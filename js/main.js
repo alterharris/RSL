@@ -34,7 +34,9 @@
 	// Btn nav collapse
 	$('#nav .nav-collapse').on('click', function() {
 		$('#nav').toggleClass('open');
+		
 	});
+	
 
 	///////////////////////////
 	// Mobile dropdown
