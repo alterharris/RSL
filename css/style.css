@@ -1565,7 +1565,8 @@ header p {
 	}
 
   .home-content h1 {
-		font-size:36px;
+        font-size:36px;
+        font-family: 'Gotham'; 
 	}
 
   .header-wrapper h2 {
