@@ -37,9 +37,12 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+
+	
 </head>
 
 <body>
+	
 	<!-- Header -->
 	<header id="home">
 			<!-- <p>Service - Integrity - Commitment</p> -->
@@ -327,7 +330,11 @@
 								<input type="text" name="subject" class="input" placeholder="Subject">
 								<textarea name="message" class="input" placeholder="Message"></textarea> 
 								<!-- <input type="hidden" id="gotcha" name="_gotcha"> -->
+								<h5>Confidential or time-sensitive information should not be sent through this form.</h5>		
 								<button type="submit" class="main-btn">Send message</button>
+														</h5> 
+
+
 							
 					</form>
 				</div>
@@ -367,10 +374,33 @@
 						<li><a href="https://www.instagram.com/grich_esq/"><i class="fa fa-instagram"></i></a></li>
 						<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
 						<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-				
-						
 						<!-- <li><a href="#"><i class="fa fa-youtube"></i></a></li> -->
 					</ul>
+
+					<div class="footer-follow">
+							<!-- Button HTML (to Trigger Modal) -->
+							<a href="#modalCenter"  data-toggle="modal">Legal Disclamer</a>
+							<!-- Button HTML (to Trigger Modal) -->
+
+							<!-- Modal HTML -->
+							<div id="modalCenter" class="modal fade" tabindex="-1">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Legal Disclaimer</h5>
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+										<div class="modal-body">
+											<p>No representation is made that the quality of the legal services to be performed is greater than the quality of legal services performed by other lawyers.</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											<!-- <button type="button" class="btn btn-primary">Close</button> -->
+										</div>
+									</div>
+								</div>
+							</div>
+
 					<!-- /footer follow -->
 
 					<!-- footer copyright -->
@@ -389,6 +419,13 @@
 
 	</footer>
 	<!-- /Footer -->
+
+	<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+
+<!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+
 
 	<!-- Back to top -->
 	<div id="back-to-top"></div>
