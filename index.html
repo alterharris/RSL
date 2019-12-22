@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 	<link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400|Great+Vibes&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
@@ -145,32 +145,45 @@
 				</div>
 				<!-- /Section header -->
 <!-- why choose us content -->
-<div class="col-md-6">
-	<div class="section-header">
-		<!-- <h2 class="title">Why Choose Us</h2> -->
-	</div>
-	<h3>No Case is Too Small</h3>
-	<div class="feature">
-		<i class="fa fa-check"></i>
-		<p>Personal Injury </p>
-	</div>
-	<div class="feature">
-		<i class="fa fa-check"></i>
-		<p>Family Law</p>
-	</div>
-	<div class="feature">
-		<i class="fa fa-check"></i>
-		<p>Real Estate</p>
-	</div>
+	<div class="col-md-6">
+		<div class="section-header">
+	<!-- </div> -->
+			<h3>No Case is Too Small</h3>
+				<div class="feature">
+					<i class="fa fa-check"></i>
+						<p>Personal Injury</p>
+		
+							<li>Car/Truck Accidents</li>
+							<li>Slip and Fall</li>
+							<li>Product Liability</li>
+							<li>Wrongful Death</li>
+				
+		
+				<div class="feature">
+					<i class="fa fa-check"></i>
+						<p>Family Law</p>
+							<li>Divorce</li>
+							<li>Child Support</li>
+							<li>Child Custody</li>
+							<li>Visitation</li>
+				</div>
+				<div class="feature">
+					<i class="fa fa-check"></i>
+						<p>Property Law</p>
+							<li>Landlord/Tenant Disputes</li>
+				</div>
 	<div class="feature">
 		<i class="fa fa-check"></i>
 		<p>Wills & Estates</p>
 	</div>
+	</div>
 </div>
+
+</div> 
 <!-- /why choose us content -->
 
 <!-- About slider -->
-<div class="col-md-6">
+<div class="col-md-6" >
 	<div id="about-slider" class="owl-carousel owl-theme">
 		<img class="img-responsive" src="img/Accident-Collision-Car-Wrecked-845143.jpg" alt="">
 		<img class="img-responsive" src="img/photo-1533659124865-d6072dc035e1.jpeg" alt="">
@@ -254,6 +267,7 @@
 							later, Gary attended Miles Law School using the 9/11 G.I. Bill and graduated with honors. Shortly after
 							completing law school, Gary was admitted to the Alabama State Bar. Gary continues to serve in the
 							military while practicing law. He serves in both roles with honor and integrity.</p>
+						
 						<h3><u>Memberships</u></h3>
 						<ul type = "circle">
 							<li>Alabama State Bar </li> 
@@ -457,8 +471,22 @@ aria-hidden="true">
 	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
+<script>	
+	var coll = document.getElementsByClassName("collapsible");
+var i;
 
-
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 </body>
 
